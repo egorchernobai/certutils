@@ -25,3 +25,9 @@
 - Python **3.7+**
 - Права администратора
 - Доступ к интернету для загрузки сертификата
+
+---
+
+## Сборка в exe
+```bash
+pyinstaller --noconfirm --onefile --console --noupx --version-file "C:\code\cert\version.txt" --uac-admin "C:\code\cert\main.py"
